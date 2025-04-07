@@ -31,7 +31,7 @@ const AllTask = () => {
     try {
       setIsLoading(true);
       const response = await axios.get(
-        "http://localhost:1000/api/v2/get-all-tasks",
+        "https://taskify-backend-31ty.onrender.com/api/v2/get-all-tasks",
         { headers }
       );
 
